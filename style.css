@@ -1,6 +1,8 @@
+
 html, body {
 	padding: 0px;
-	margin: 0px; 
+	margin: 0px;
+	height: 100%;
 }
 body{
  display:flex;
@@ -17,10 +19,28 @@ header {
 	align-items: center;
 	justify-content: center;
 }
+main {
+	padding:10px;
+}
+p{
+	text-align: center;
+}
 
 .foto{
 	border-radius:50%;
 	width:300px;
 }
+@media (max-width:800px){
+	p {
+		font-size:30px;
+	}
+	h1{ 
+		font-size:40px;
+	}
+@media (max-width:600px){
+	body{
+		background: blue;
+		color:#fff;
+	}
+}
 
-  
